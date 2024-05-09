@@ -1,19 +1,7 @@
-@font-face {
-    font-family: 'Outfit';
-    src: url('../fonts/Outfit-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('../fonts/Outfit-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('../fonts/Outfit-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
+@font-face{
+    font-family:'youngSerif';
+    src: url(../assets/fonts/young-serif/OFL.txt),
+    url(../assets/fonts/young-serif/YoungSerif-Regular.ttf)
 }
 
 
@@ -43,8 +31,9 @@ body{
 
 h3{
     font-size: 1.5rem;
-    color: #832d50;
     padding-bottom: 1rem;
+    font-family: 'youngSerif';
+    color: hsl(14, 45%, 36%);
 }
 main{
     width: 50%;
@@ -74,7 +63,7 @@ img{
     color: #1f1c1ce8;
     font-weight: bold;
     padding-bottom: 1rem;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'youngSerif';
 }
 
 .preparation{
@@ -83,9 +72,6 @@ img{
     background-color: #fff7fc;
 }
 
-.preparation h3{
-    color: rgb(151, 73, 73);
-}
 
 .preparation >ul,
 .instructions >ul{
@@ -136,11 +122,11 @@ tr:last-child{
 }
 
 th, td{
-    padding: 1rem
+    padding: 1rem 2rem;
 }
 
 th{
-    color: #57302a;
+    color: hsl(14, 45%, 36%);
 }
 
 .attribution{
