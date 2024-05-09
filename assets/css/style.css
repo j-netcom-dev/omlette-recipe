@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100%;
+}
+
+body{
+    color: #252524;
+    padding: 2rem;
+    background-color: #f3e5d8;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #832d50;
+    padding-bottom: 1rem;
+}
+main{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.img{
+    overflow: hidden;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about{
+    padding: 2rem 0;
+}
+
+.title{
+    color: #1f1c1ce8;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.preparation{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: #fff7fc;
+}
+
+.preparation h3{
+    color: rgb(151, 73, 73);
+}
+
+.preparation >ul,
+.instructions >ul{
+    padding: 1rem;
+}
+
+.list__item{
+    padding-bottom: 1rem;
+}
+
+.list__item:last-child{
+    padding-bottom: 0;
+}
+
+.ingredients{
+    padding: 1rem 0;
+}
+
+.ingredients >ul{
+    padding: 1rem;
+}
+
+.instructions{
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-right: 0;
+    border-left: 0;
+}
+
+.nutrition{
+    padding: 1rem 0;
+}
+
+table, tbody, tr, th, td{
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    border-bottom: 1px solid rgba(71, 66, 67, 0.425);
+}
+
+tr:last-child{
+    border-bottom: 0;
+}
+
+th, td{
+    padding: 1rem
+}
+
+th{
+    color: #57302a;
+}
+
+.attribution{
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    color: #333333de;
+}
+
+.attribution a{
+    font-weight: bold;
+    color: rgba(18, 96, 175, 0.767);
+}
